@@ -1,0 +1,6 @@
+<!--pages/personal/index.wxml-->
+<view>banner</view>
+<view>
+  <text>您尚未登录，点我</text>
+  <text bindtap="goLogin">登录</text>
+</view>

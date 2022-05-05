@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper class="swiper-box" indicator-dots
+    autoplay interval="{{2000}}">
+    <block wx:for="{{tabList}}" wx:key="*this">
+      <swiper-item>
+        <view class="swiper-item">{{item.img}}</view>
+      </swiper-item>
+    </block>
+  </swiper>
+  <title-com titleStr="朝夕教育哈哈"></title-com>
+
+  <title-com titleStr="加入朝夕"></title-com>
+</view>

@@ -1,0 +1,2 @@
+<!--components/titleCom/index.wxml-->
+<view>{{titleStr}}</view>
